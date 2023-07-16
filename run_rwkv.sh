@@ -5,9 +5,9 @@ PYTHON=""
 while true
 do
     if [ -z "$PYTHON" ]; then
-        python ./wenda/wenda.py -t rwkv
+        python wenda.py -t rwkv
     else
-        $PYTHON ./wenda/wenda.py -t rwkv
+        $PYTHON wenda.py -t rwkv
     fi
 sleep 1
 done
